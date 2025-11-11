@@ -1,0 +1,7 @@
+export default function Footer() {
+  return (
+    <footer className="py-6 bg-gray-900 text-center text-gray-400">
+      <p>© {new Date().getFullYear()} John Doe. All rights reserved.</p>
+    </footer>
+  );
+}
